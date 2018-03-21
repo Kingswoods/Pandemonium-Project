@@ -1,0 +1,37 @@
+html
+{
+    color: #212121;
+}
+
+a
+{
+    color: inherit;
+    outline: 0;
+}
+
+// HEADER //
+
+.menu
+{
+    color: #ccc;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+}
+
+.menu::before
+{
+    background: url(https://menu.gog.com/assets/img/bg.jpg) repeat-x top center rgba(26,26,26,0.9);
+}
+
+// CONTENT //
+
+.content, .wrapper
+{
+    background-color: #CCC;
+}
+
+// FOOTER //
+.main-footer
+{
+    background: #262626;
+    color: #909090;
+}
